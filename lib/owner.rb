@@ -58,6 +58,7 @@ def sell_pets
     @pets.collect do |species, instances|
       
       instances.each do |pet|
+        binding pry
         pet.mood = "nervous"
       end
       instances.clear
