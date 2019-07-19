@@ -54,7 +54,6 @@ def feed_cats
 end
 end
 def sell_pets
-  binding.pry
   @pets = @dogs + @cats
   @pets.collect do |species, instances|
       
