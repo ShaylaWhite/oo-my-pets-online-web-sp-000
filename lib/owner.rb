@@ -12,7 +12,8 @@ def initialize(name)
       @mood = "nervous"
       @dogs = []
       @cats = []
-      @@owners << self
+      @pets = {"dogs => []}
+      @@owner << self
     end
     
     def say_species
@@ -54,8 +55,8 @@ def feed_cats
 end
 end
 def sell_pets
-  pets = @dogs + @cats
-  pets.collect do |species, instances|
+  binding.pry
+    @pets.collect do |species, instances|
       
       instances.each do |pet|
         binding.pry
