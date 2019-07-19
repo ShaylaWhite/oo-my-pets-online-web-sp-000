@@ -56,7 +56,7 @@ end
 end
 def sell_pets
   pets = @cats + @dogs
-    pets.collect do |species, instances|
+  pets.collect do |species, instances|
       
       instances.each do |pet|
         binding.pry
