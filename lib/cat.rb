@@ -17,8 +17,5 @@ attr_accessor :mood, :owner
     @@cats
   end
   
-  def self.count
-    @cats.count
-  end
   
 end
