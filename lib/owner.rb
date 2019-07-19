@@ -55,6 +55,7 @@ end
 end
 def sell_pets
   binding.pry
+  
     @pets.collect do |species, instances|
       
       instances.each do |pet|
