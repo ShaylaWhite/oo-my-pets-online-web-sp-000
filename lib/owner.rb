@@ -56,13 +56,10 @@ end
 end
 def sell_pets
   pets = @cats + @dogs
-      
-      pets.each do |pet|
-        binding.pry
-        pet.mood = "nervous"
+  pets.each do |pet|
+                     binding.pry
+  pet.mood = "nervous"
       end
-      instances.clear
-    end
   end
   
 def list_pets
