@@ -1,3 +1,4 @@
+Require "pry"
 class Owner
 
 attr_reader :species, :owners, :name
