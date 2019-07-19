@@ -60,6 +60,7 @@ def sell_pets
                     
   pet.mood = "nervous"
   pet.owner = nil
+  cat.owner - nil
       end
       
   end
