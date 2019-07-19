@@ -61,7 +61,8 @@ def sell_pets
   pet.mood = "nervous"
   
       end
-   pets.owner = nil
+   @cats.owner = nil
+   @dogs.owner = nil
   end
   
 def list_pets
