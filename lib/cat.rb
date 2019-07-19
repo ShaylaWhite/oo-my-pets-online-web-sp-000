@@ -1,6 +1,6 @@
 class Cat
 attr_reader :name
-attr_accessor :mood, :owner
+attr_accessor :mood, :owners
 
       @@cats = []
 
@@ -9,7 +9,7 @@ attr_accessor :mood, :owner
     @name = name
     @mood = "nervous"
     @@cats << self
-    owner.cats << self
+    owners.cats << self
    
   end
   
