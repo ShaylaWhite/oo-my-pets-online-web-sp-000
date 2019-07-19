@@ -53,7 +53,7 @@ def feed_cats
     cat.mood = "happy"
 end
 end
-
+binding pry
 def sell_pets
     @pets.collect do |species, instances|
       instances.each do |pet|
