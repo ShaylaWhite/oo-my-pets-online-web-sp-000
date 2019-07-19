@@ -13,7 +13,7 @@ def initialize(name)
       @dogs = []
       @cats = []
       @pets = @dogs + @cats
-      @@owner << self
+      @@owners << self
     end
     
     def say_species
