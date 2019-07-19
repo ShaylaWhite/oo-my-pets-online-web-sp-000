@@ -9,6 +9,7 @@ attr_accessor :cats, :dogs, :pets
 def initialize(name)
       @name = name
       @species = "human"
+      @owner = owner
       @mood = "nervous"
       @dogs = []
       @cats = []
