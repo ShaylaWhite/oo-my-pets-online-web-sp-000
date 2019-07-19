@@ -12,7 +12,7 @@ def initialize(name)
       @mood = "nervous"
       @dogs = []
       @cats = []
-      @pets = {"dogs => []}
+      @pets = { cats: [], dogs: []}
       @@owner << self
     end
     
